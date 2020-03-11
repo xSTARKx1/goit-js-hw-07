@@ -1,0 +1,27 @@
+.js-galleryList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+  list-style-type: none;
+}
+
+.js-image {
+  border: 4px solid rgba(0, 0, 0, 0.43);
+  border-radius: 12px;
+  width: 350px;
+  height: auto;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
